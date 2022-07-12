@@ -3,16 +3,16 @@ import Toggle from "../Toggle/Toggle";
 import "./Navbar.css";
 import { Link } from "react-scroll";
 
-const navbar = () =>{
+const navbar = () => {
     return(
-    <div>
+    <div className="n-wrapper" id="Navbar">
     {/* left */}
     <div className="n-left">
         <div className="n-name">Sebastián</div>
         <Toggle/>
     </div>
     {/* right */}
-    <div className="n-n-right">
+    <div className="n-right">
         <div className="n-list">
             <ul style={{listStyleType: "none"}}>
 
