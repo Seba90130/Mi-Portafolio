@@ -40,10 +40,10 @@ const Intro = () => {
           <button className="button i-button">Hire me</button>
         </Link>
         {/* social icons */}
-        <div className="i-icons">
-          <img src={Github} alt="" />
-          <img src={LinkedIn} alt="" />
-          <img src={Instagram} alt="" />
+        <div className="i-icons">          
+         <a title="LinkedIn" target= "blank" href={"https://github.com/Seba90130" }><img src={Github} alt="" /></a>
+         <a title="LinkedIn" target= "blank" href={"https://www.linkedin.com/in/seba90130/" }><img src={LinkedIn} alt="" /></a>
+         <a title="Instagram" target= "blank" href={"https://www.instagram.com/seba90130/" } ><img src={Instagram} alt=""/></a>
         </div>
       </div>
       {/* right image side */}
